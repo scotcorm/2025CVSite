@@ -568,6 +568,15 @@ main {
   max-width: 1000px;
 }
 
+.part-background {
+  background-color: #ededed;
+  margin-bottom: 2rem;
+  :hover {
+    margin: 1rem;
+    background-color: rgba(87, 173, 104, 1);
+    color: blue;
+  }
+}
 /* Cards
 #parts {
  
