@@ -94,6 +94,7 @@ img {
   margin-right: auto;
   width: 25%;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #smImg2 {
@@ -102,6 +103,12 @@ img {
   margin-right: auto;
   width: 45%;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.imgTxt {
+  display: block;
+  text-align: center;
 }
 
 /* @media screen and (min-width: 1120px) {
@@ -205,10 +212,14 @@ img {
   padding: 2em;
 }
 
-.part {
+#part {
   background-color: white;
   margin-bottom: 1em;
   text-align: center;
+}
+.part {
+  background-color: white;
+  margin-bottom: 1em;
 }
 
 .part a {
@@ -236,7 +247,17 @@ img {
     justify-content: space-between;
   }
 
+  #parts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .part {
+    flex-basis: 49%;
+  }
+
+  #part {
     flex-basis: 49%;
   }
 }
@@ -248,6 +269,10 @@ img {
   }
 
   .part-half {
+    flex-basis: 49%;
+  }
+
+  #part-half {
     flex-basis: 49%;
   }
 
@@ -543,34 +568,23 @@ main {
   max-width: 1000px;
 }
 
-/* Cards */
-.cards {
+/* Cards
+#parts {
+ 
   border-radius: 0.25rem;
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 1.5rem;
   overflow: hidden;
 
-  & > a {
+ 
     box-sizing: border-box;
     border: none;
     flex: 1 100%;
     padding: 1.5rem;
     text-align: center;
-
-    & svg {
-      display: block;
-      margin: 0 auto 0.75rem;
-      width: 5.25rem;
-      height: 5.25rem;
-      transition: all 0.125s ease-in-out;
-
-      & path {
-        transition: fill 0.125s ease-in-out;
-      }
-    }
-
-    &:first-child {
+  
+    & span {
       background-color: #333;
       color: #eee;
       & svg {
@@ -578,8 +592,8 @@ main {
         & path {
           fill: #333;
         }
-      }
-      &:hover {
+      } 
+      :hover {
         background-color: #222;
         color: rgba(87, 173, 104, 1);
         & svg {
@@ -602,4 +616,4 @@ main {
       }
     }
   }
-}
+} */
