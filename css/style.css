@@ -23,60 +23,6 @@ footer {
   font-size: 1.2em;
   font-weight: bold;
 }
-/* 
-header {
-  background-color: black;
-} */
-
-/* .outer-wrap {
-  margin: 0 auto;
-  max-width: 1500px;
-} */
-
-/* start sidebar styles */
-/* .sidebar-left {
-  padding: 2em;
-  color: black;
-}
-
-.widget {
-  background-color: white;
-  margin-bottom: 2em;
-}
-
-.widget-content {
-  padding: 0.5em 2em;
-}
-
-.sidebar-left ul {
-  list-style-type: none;
-  padding-left: 1em;
-}
-
-.sidebar-left ul a {
-  display: block;
-  padding-bottom: 0.4em;
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-@media screen and (min-width: 810px) and (max-width: 1120px) {
-  .sidebar-left {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .widget {
-    flex-basis: 48.8%;
-  }
-} */
-
-/* h1 {
-  color: red;
-  margin: 0;
-} */
 
 p {
   margin: 0;
@@ -111,26 +57,6 @@ img {
   text-align: center;
 }
 
-/* @media screen and (min-width: 1120px) {
-  .content-area {
-    display: flex;
-  } */
-
-/* set the sidebar width won't grow, won't shrink below 320px */
-/* .sidebar-left {
-    flex: 0 0 320px;
-  }
-} */
-
-/* Header Styles Start */
-/* .site-header {
-  height: 400px;
-  display: flex;
-  flex-flow: column;
-} */
-
-/* flex-grow:1  stacks the column and takes up all the remaining space, drops the info to the bottom */
-
 .site-info {
   flex-grow: 1;
   display: flex;
@@ -147,14 +73,6 @@ img {
   text-transform: uppercase;
 }
 
-/* .site-description {
-  text-align: center;
-  color: #f6d200;
-  font-size: 1.2em;
-  margin-top: -0.8;
-  font-style: italic;
-} */
-
 /* main menu styles start */
 .main-menu {
   color: black;
@@ -163,7 +81,8 @@ img {
 .main-menu ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-bottom: 2rem;
+  margin-top: 0rem;
 }
 
 .main-menu li a {
@@ -232,7 +151,7 @@ img {
 }
 
 .part-text h2 {
-  background-color: #00b359;
+  background-color: whitesmoke;
   color: black;
   padding: 20px;
   text-align: center;
@@ -399,7 +318,7 @@ img {
 }
 
 .other-downloads {
-  background-color: #00b359;
+  background-color: grey;
   padding: 1em 2em;
   color: black;
   font-size: 0.9em;
@@ -572,57 +491,8 @@ main {
   background-color: #ededed;
   margin-bottom: 2rem;
   :hover {
-    margin: 1rem;
-    background-color: rgba(87, 173, 104, 1);
-    color: blue;
+    /* margin: 1rem; */
+    background-color: grey;
+    color: whitesmoke;
   }
 }
-/* Cards
-#parts {
- 
-  border-radius: 0.25rem;
-  display: flex;
-  flex-flow: row nowrap;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
-
- 
-    box-sizing: border-box;
-    border: none;
-    flex: 1 100%;
-    padding: 1.5rem;
-    text-align: center;
-  
-    & span {
-      background-color: #333;
-      color: #eee;
-      & svg {
-        background-color: #eee;
-        & path {
-          fill: #333;
-        }
-      } 
-      :hover {
-        background-color: #222;
-        color: rgba(87, 173, 104, 1);
-        & svg {
-          background-color: rgba(87, 173, 104, 1);
-          & path {
-            fill: #222;
-          }
-        }
-      }
-    }
-
-    &:last-child {
-      background-color: #eee;
-      color: #555;
-      & svg path {
-        fill: #333;
-      }
-      &:hover {
-        background-color: #ccc;
-      }
-    }
-  }
-} */
